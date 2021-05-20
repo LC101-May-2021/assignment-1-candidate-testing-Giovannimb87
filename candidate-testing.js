@@ -20,7 +20,7 @@ candidateName = input.question("Please, tell me your name. ");
 function askQuestion() {
   // TODO 1.2b: Ask candidate the question and assign the response as candidateAnswer //
 for (let i = 0; i < questions.length; i++) {
-    candidateAnswers[i] = input.question(questions[i]);
+    candidateAnswers[i] = input.question(`${i + 1}) ${questions[i]}`);
     console.log(theLine);
     console.log(`>>> Your answer: ${candidateAnswers[i]}`);
     console.log(`>>> Correct answer: ${correctAnswers[i]}`);
