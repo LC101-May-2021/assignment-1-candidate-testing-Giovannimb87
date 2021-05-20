@@ -37,8 +37,7 @@ for (let i = 0; i < questions.length; i++) {
 
 }
 
-function gradeQuiz(candidateAnswers) {
-
+function gradeQuiz() {
   // TODO 1.2c: Let the candidate know if they have answered the question correctly or incorrectly // 
 
 
@@ -65,7 +64,6 @@ function gradeQuiz(candidateAnswers) {
     );
     console.log(theLine);
   }
-  console.log(grade);
   return grade;
 }
 
