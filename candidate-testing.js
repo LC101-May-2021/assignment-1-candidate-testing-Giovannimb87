@@ -34,7 +34,6 @@ for (let i = 0; i < questions.length; i++) {
     console.log(theLine);
     console.log("");
   }
-return candidateAnswers;
 }
 
 function gradeQuiz(candidateAnswers) {
