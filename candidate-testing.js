@@ -42,6 +42,34 @@ function gradeQuiz(candidateAnswers) {
   }
   grade *= 20;
   if (grade > 79) {
+    console.clear();
+    console.log(`
+                   
+───────────────────████
+───────────────────█████
+───────────────────██████
+───────────────────███████
+──────────────────████████
+──────────────────████████
+─────────────────█████████
+────────────────█████████
+───────────────█████████
+──────────────█████████
+──────────────██████████████████
+────────────█████████████████████
+───────────███████████████████████
+████████─██████████████████████████
+████████─███████████████████████████
+████████─████████████████████████████
+████████─████████████████████████████
+████████─████████████████████████████
+████████─████████████████████████████
+████████─███████████████████████████
+████████─██████████████████████████
+████████─█████████████████████████
+████████─████████████████████████
+████████─███████████████████████ 
+`)
     console.log(theLine);
     console.log(
       `Congratulations, code-cadet! You passed with a score of ${grade}!`
@@ -62,7 +90,7 @@ function runProgram() {
   // TODO 1.1c: Ask for candidate's name //
   console.clear();
   console.log(
-    `Hello, ${candidateName}.\nWelcome, and thank you for participating in the launch_code astronaut application process.`
+    `Welcome, ${candidateName}.\n \n>> Thank you for participating in the launch_code astronaut application process. <<`
   );
 
   console.log("\n \n");
